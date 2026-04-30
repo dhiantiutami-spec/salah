@@ -27,6 +27,14 @@ public:
 
          // Step 1: Allocate memory for new node
         Node *newNode = new Node();
-        
+          // Step 3: Insert at beginning if list empty or first element
+        if (START == NULL || nim <= START->noMhs)
+        {
+            if (START != NULL && nim == START->noMhs)
+            {
+                cout << "\nDuplicate roll numbers not allowed" << endl;
+                return;
+            }
+        }
     }
 }
