@@ -13,5 +13,10 @@ public:
 class DoubleLinkedList
 {
     Node *START;
-    
+
+public:
+    DoubleLinkedList()
+    {
+        START = NULL;
+    }
 }
